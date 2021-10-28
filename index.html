@@ -1,0 +1,27 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+
+int main(){
+    int row_value, row, column;
+    printf("enter the number of rows : ");
+    scanf("%d", &row_value);
+    
+for(row=row_value; row>=1; row--){
+    for(column=1; column<=row; column++ ){
+    printf("* ");
+    
+}
+
+printf("\n");
+}
+
+    return 0;                                                                
+}
+
